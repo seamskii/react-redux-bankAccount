@@ -25,7 +25,7 @@ export const MenuButtons = ({ type }) => {
 
   return (
     <div>
-      <h1 style={{ color: "#61dafb" }}>Balance ₪{balance}</h1>
+      <h1 className={styles.balance}>Balance ₪{balance}</h1>
       <div className={styles.sumButtonInput}>
         <input
           type="number"
