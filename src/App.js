@@ -5,7 +5,7 @@ import {HomePage} from "./pages/homePage";
 import { DepositPage } from "./pages/depositPage";
 import { WithdrawPage } from "./pages/withdrawPage";
 
-function App() {
+export const App=()=> {
   return (
     <BrowserRouter>
       <div className="App">
@@ -35,5 +35,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
